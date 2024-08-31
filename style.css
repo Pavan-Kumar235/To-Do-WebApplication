@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(215, 215, 215);
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    gap: 20px;
+    background-color: rgb(200, 199, 199);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px white;
+}
+.container h1 {
+    letter-spacing: 2px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#task {
+    width: 450px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(215, 215, 215);
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#add-task {
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ul {
+    width: 100%;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+span {
+    flex: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ul button {
+    padding: 5px 7px 5px 7px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(200, 199, 199);
+}
+ul .checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}   
+ul .delete {
+    background-color: rgb(135, 81, 81);
+    color: white;
+}
